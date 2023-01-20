@@ -1,8 +1,9 @@
+import React from 'react'
 
-function quienessomos(){
-    return(
-        <h2> esto es una prueba</h2>
-    )
+const quienessomos = () => {
+  return (
+    <div>Quienes somos</div>
+  )
 }
 
-export default quienessomos;
+export default quienessomos
