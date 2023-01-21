@@ -1,9 +1,15 @@
 import React from 'react'
+import Registro from '../../Components/register/registro';
+
 
 const home = () => {
-  return (
-    <div>Home</div>
-  )
+return(
+  <>
+  <Registro/>
+  <div>HomeBody</div>
+  </>
+    )
+    
 }
 
-export default home
+export default home;

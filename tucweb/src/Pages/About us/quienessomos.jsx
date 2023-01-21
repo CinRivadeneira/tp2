@@ -6,4 +6,4 @@ const quienessomos = () => {
   )
 }
 
-export default quienessomos
+export default quienessomos;
