@@ -3,7 +3,7 @@ import "../css/navbar.css";
 
 
 const Navbar = () => {
-    const [showLinks, setShowLinks] = useState (true);
+    const [showLinks, setShowLinks] = useState (false);
 
     return (
         <div className="navbar">
@@ -15,7 +15,7 @@ const Navbar = () => {
                     <a href="/contacto">Contacto</a>
                     <a href="/usuarios">Usuarios</a>
                 </div>
-                <button> open </button>
+                <button onClick={() => setShowLinks(!showLinks)}> open </button>
             </div>
         </div>
     )
