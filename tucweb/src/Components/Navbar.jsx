@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
 import "../css/navbar.css";
+import { TfiAlignJustify} from "react-icons/tfi";
+
 
 
 const Navbar = () => {
@@ -15,7 +17,7 @@ const Navbar = () => {
                     <a href="/contacto">Contacto</a>
                     <a href="/usuarios">Usuarios</a>
                 </div>
-                <button onClick={() => setShowLinks(!showLinks)}> open </button>
+                <TfiAlignJustify onClick={() => setShowLinks(!showLinks)}> menu </TfiAlignJustify>
             </div>
         </div>
     )
