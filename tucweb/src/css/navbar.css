@@ -15,12 +15,22 @@
     display: flex;
 }
 
+
+.navbar h1{
+    color:blueviolet;
+    flex:50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
 .navbar .leftSide{
     flex:50%;
     display: flex;
     justify-content: left;
     align-items: center;
 }
+
 
 .navbar .leftSide .links{
     max-height: 80px;
