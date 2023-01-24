@@ -16,36 +16,29 @@
 }
 
 
-.navbar h1 {
-    color: blueviolet;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-
-.navbar .leftSide {
+.navbar .menu {
     flex: 50%;
     display: flex;
-    justify-content: left;
+    justify-content: space-around;
     align-items: center;
 }
 
 
-.navbar .leftSide .links {
+.navbar .menu .links {
     max-height: 80px;
 }
 
-.navbar .leftSide button {
+.navbar .menu button {
     display: none;
     margin-left: 20px;
 }
 
-.navbar .leftSide #hidden {
+.navbar .menu #hidden {
     display: flex;
 }
 
 
-.navbar .leftSide .links a {
+.navbar .menu .links a {
     max-height: 80px;
     text-decoration: none;
     color: black;
@@ -53,8 +46,18 @@
     margin-left: 15px;
 }
 
+.navbar .logoo{
+    padding: 10px 30px 50px;
+    height: 30px;
+    cursor: pointer;
+    left: 14px;
+    
+}
+
+
+
 @media only screen and (max-width: 850px) {
-    .navbar .leftSide .links a {
+    .navbar .menu .links a {
         font-size: 20px;
     }
 
@@ -62,7 +65,7 @@
 }
 
 @media only screen and (max-width: 750px) {
-    .navbar .leftSide .links a {
+    .navbar .menu .links a {
         font-size: 15px;
     }
 
@@ -70,15 +73,15 @@
 }
 
 @media only screen and (max-width: 650px) {
-    .navbar .leftSide button {
+    .navbar .menu button {
         display: flex;
     }
 
-    .navbar .leftSide .links {
+    .navbar .menu .links {
         display: none;
     }
 
-    .navbar .leftSide #hidden {
+    .navbar .menu #hidden {
         position: absolute;
         left: 0px;
         top: 80px;
@@ -91,12 +94,23 @@
         align-items: center;
     }
 
-    .navbar .leftSide #hidden a {
+    .navbar .menu #hidden a {
         margin: 10px;
         font-size: 25px;
     }
 
+    button{
+        background-color: rgb(210, 171, 99);
+        font-size: 25px;
+    }
 
-
+    .navbar .logo {
+        height: 50px;
+        align-content: center;
+        margin-left: 10px;
+        margin-top: 13px;
+  
 
 }
+}
+

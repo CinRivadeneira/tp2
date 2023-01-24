@@ -3,13 +3,12 @@ import Registro from '../../Components/register/registro';
 
 
 const home = () => {
-return(
-  <>
-  <Registro/>
-  <div>HomeBody</div>
-  </>
-    )
-    
+  return (
+    <>
+      <Registro />
+    </>
+  )
+
 }
 
 export default home;

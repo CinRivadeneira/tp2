@@ -8,6 +8,9 @@ import Home from "./Pages/Home/home";
 const App = () => {
   return (
     <Router>
+      <Switch>
+        <Route exact path="/home" component={Home}/>
+      </Switch>
       <Navbar />
       <Home/>
     </Router>
