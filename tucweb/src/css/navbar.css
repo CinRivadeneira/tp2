@@ -13,6 +13,7 @@
     height: 80px;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
+    
 }
 
 
@@ -21,11 +22,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 
 .navbar .menu .links {
     max-height: 80px;
+    animation-name: example;
+    animation-duration: 4s;
 }
 
 .navbar .menu button {
@@ -46,12 +50,12 @@
     margin-left: 15px;
 }
 
-.navbar .logoo{
-    padding: 10px 30px 50px;
-    height: 30px;
+.navbar img{
+    max-height: 60px;
+    margin-left: 30px;
+    margin-top: 10px;
     cursor: pointer;
-    left: 14px;
-    
+    transform: scale(1.1);
 }
 
 
@@ -104,13 +108,20 @@
         font-size: 25px;
     }
 
-    .navbar .logo {
+    .navbar img{
         height: 50px;
         align-content: center;
         margin-left: 10px;
         margin-top: 13px;
+  }
   
-
-}
 }
 
+
+
+@media only screen and (max-width: 256px) { 
+    .navbar img{
+        display: none;
+}
+
+}
