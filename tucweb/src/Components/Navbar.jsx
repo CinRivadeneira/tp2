@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "../css/navbar.css";
 import { Redirect } from 'react-router-dom';
 import ReorderIcon from "@mui/icons-material/Reorder";
-import logo from "../Img/logo.png";
+import logo from "../Img/banner.png";
 
 const Navbar = () => {
     const [showLinks, setShowLinks] = useState(false);
