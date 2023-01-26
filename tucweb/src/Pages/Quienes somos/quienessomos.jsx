@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from "../../Components/Navbar";
 
-const Quienessomos = () => {
+const QuienesSomos = () => {
   return (
     <>
     <Navbar />
@@ -9,4 +9,4 @@ const Quienessomos = () => {
   )
 }
 
-export default Quienessomos;
+export default QuienesSomos;
