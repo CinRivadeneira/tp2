@@ -1,7 +1,6 @@
+import "../../src/Css/Slider.css";
 
-import "../../css/slider.css";
-
-const slider =() => {
+const Slider =() => {
     return(
   <section class="banner">
         <div class="banner-content">
@@ -10,4 +9,4 @@ const slider =() => {
   )
 }
 
-export default slider;
+export default Slider;

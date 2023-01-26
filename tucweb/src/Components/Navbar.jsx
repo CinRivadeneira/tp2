@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import "../css/navbar.css";
+import "../Css/Navbar.css";
 import { Redirect } from 'react-router-dom';
 import ReorderIcon from "@mui/icons-material/Reorder";
 import logo from "../Img/banner.png";
@@ -15,7 +15,7 @@ const Navbar = () => {
             </div>
             <div className="menu">
                 <div className="links" id={showLinks ? "hidden" : ""} >
-                    <a href='/home'>Inicio</a>
+                    <a href='/inicio'>Inicio</a>
                     <a href="/quienessomos">Quienes somos</a>
                     <a href="/contacto">Contacto</a>
                     <a href="/usuarios">Usuarios</a>

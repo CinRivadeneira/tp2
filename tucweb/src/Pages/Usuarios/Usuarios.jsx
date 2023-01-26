@@ -1,12 +1,14 @@
 import React from 'react';
 import Navbar from "../../Components/Navbar";
+import Registro from "../../Components/Registro";
 
-const Quienessomos = () => {
+const Usuarios = () => {
   return (
     <>
     <Navbar />
+    <Registro />
     </>
   )
 }
 
-export default Quienessomos;
+export default Usuarios;
