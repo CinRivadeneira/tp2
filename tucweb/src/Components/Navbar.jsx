@@ -1,23 +1,30 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "../css/navbar.css";
-
+import { Redirect } from 'react-router-dom';
+import ReorderIcon from "@mui/icons-material/Reorder";
+import logo from "../Img/banner.png";
 
 const Navbar = () => {
+    const [showLinks, setShowLinks] = useState(false);
+    const [reorderIcon, setReorderIcon] = useState(false);
+
     return (
         <div className="navbar">
-            <div className="leftSide">
-                <div className="links">
+            <div className='logo'>
+                <img src={logo} />
+            </div>
+            <div className="menu">
+                <div className="links" id={showLinks ? "hidden" : ""} >
                     <a href='/home'>Inicio</a>
                     <a href="/quienessomos">Quienes somos</a>
                     <a href="/contacto">Contacto</a>
                     <a href="/usuarios">Usuarios</a>
                 </div>
-            </div>
-            <div className="rightSide">
-
+                <button className="mobileMenu" onClick={() => setShowLinks(!showLinks)}> <ReorderIcon onClick={() => setReorderIcon(!reorderIcon)} />
+                </button>
             </div>
         </div>
     )
 }
 
-export default Navbar
+export default Navbar;

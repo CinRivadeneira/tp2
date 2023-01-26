@@ -9,6 +9,9 @@ import Slider from "../src/Components/register/slider";
 const App = () => {
   return (
     <Router>
+      <Switch>
+        <Route exact path="/home" component={Home}/>
+      </Switch>
       <Navbar />
       <Slider/>
       <Home/>

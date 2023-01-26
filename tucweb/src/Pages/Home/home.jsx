@@ -7,6 +7,8 @@ const home = () => {
 return(
   <>
   <Registro/>
+ 
+  <div>HomeBody</div>
   </>
     )
     
