@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Inicio from '../Pages/Inicio/Inicio';
-import Quienessomos from '../Pages/Quienes somos/QuienesSomos';
-import Contacto from "../Pages/Contacto/Contacto";
+import Quienessomos from '../Pages/QuienesSomos/quienessomos';
+import Contacto from "../Pages/Contacto/contacto";
 import Usuarios from "../Pages/Usuarios/Usuarios";
 
 
