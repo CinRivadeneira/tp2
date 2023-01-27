@@ -1,11 +1,13 @@
 import "../Css/Slider.css";
 
-const Slider =() => {
-    return(
-  <section class="banner">
-        <div class="banner-content">
-        </div>  
-  </section>
+const Slider = () => {
+  return (
+    <section className="banner">
+      <div className="banner-content">
+      </div>
+      <div className="soluciones"> SOLUCIONES INFORMÁTICAS </div>
+    </section>
+
   )
 }
 

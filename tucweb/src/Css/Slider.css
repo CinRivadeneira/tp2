@@ -1,6 +1,3 @@
-  
-
-
 .banner {
     position: relative;
     width: 100%;
@@ -32,16 +29,27 @@
         background-image: url(https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 
     }
-    25%{
+
+    25% {
         background-image: url(https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     }
-    50%{
-        background-image:  url(https://images.pexels.com/photos/3888151/pexels-photo-3888151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+
+    50% {
+        background-image: url(https://images.pexels.com/photos/3888151/pexels-photo-3888151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 
     }
 }
 
-.texto{
-    font-size: xx-large;
-    
+.soluciones {
+    font-size: 50px;
+    color: rgb(214, 221, 226);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: -350px;
+}
+
+@media only screen and (max-width: 650px) {
+    .soluciones {
+        font-size: 40px;
+    }
 }

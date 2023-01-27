@@ -2,7 +2,7 @@ import "../Css/Registro.css";
 
 const Registro = () => {
     return (
-        <body>
+        <div className ="contenedor">
             <div className="container">
                 <div className="login-container">
                     <div className="register">
@@ -25,7 +25,7 @@ const Registro = () => {
                     </div>
                 </div>
             </div>
-        </body>
+        </div>
     )
 }
 
