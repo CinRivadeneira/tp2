@@ -1,4 +1,4 @@
-import "../css/registro.css";
+import "../Css/Registro.css";
 
 const Registro = () => {
     return (
