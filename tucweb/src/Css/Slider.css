@@ -1,5 +1,6 @@
 
 .banner {
+    z-index: -1;
     position: relative;
     width: 100%;
     height: calc(40vh - 20px);
