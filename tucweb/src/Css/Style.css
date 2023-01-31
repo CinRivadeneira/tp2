@@ -109,6 +109,7 @@ h3 {
 }
 
 .contenedorE {
+    z-index: -1;
     display: grid;
     grid-gap: 20px;
     padding: 10px -50px;
@@ -118,6 +119,7 @@ h3 {
 }
 
 .gallery_img {
+    z-index: -1;
     width: 300px;
     height: 300px;
     object-fit: cover;
@@ -128,6 +130,7 @@ h3 {
 }
 
 .gallery__iterm {
+    z-index: -1;
     position: relative;
 
 }
