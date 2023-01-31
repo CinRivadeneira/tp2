@@ -15,9 +15,8 @@ const Navbar = () => {
 
 
                 <MobileIcon onClick={() => setShowMobileMenu(!showMobileMenu)}>
-                    {showMobileMenu ? <FaTimes /> : <FaBars />
-                    }
-                
+                    {showMobileMenu ? <FaTimes /> : <FaBars /> }
+
                 </MobileIcon>
                 <Menu open={showMobileMenu} >
                     <MenuItem>
