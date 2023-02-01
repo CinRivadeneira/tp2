@@ -9,7 +9,8 @@ body {
 }
 
 
-{/* Home */}
+{ /* Home */ }
+
 h2 {
     color: rgb(4, 4, 97);
     text-align: center;
@@ -90,10 +91,7 @@ h3 {
 
 
 
-
-
-
-{/* Quienes somos */}
+{ /* Quienes somos */ }
 
 .intro {
     text-align: center;
@@ -163,10 +161,53 @@ h3 {
 }
 
 
-{/* Quienes somos */}
+{ /* Quienes somos */ }
 
 
 
+{  /* Contacto */}
+
+.form {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+}
+
+textarea {
+    max-width: 100%;
+}
+
+#botonenv {
+    padding: 5px;
+    color: #eceff1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #042133;
+    border-radius: 7px;
+    width: 100px;
+    height: 40px;
+    transition: background-color 0.25s;
+}
+
+#botonenv:hover {
+    background-color: #083e5f;
+}
+
+#mailto {
+    opacity: 0;
+}
+
+
+{ /* Contacto */ }
 
 
 
@@ -178,15 +219,12 @@ h3 {
         justify-items: center;
         align-items: center;
     }
-
-
 }
 
 
 @media screen and (min-width:540px) {
-.contenedorE{
-    display: flex;
-    justify-content: center;
-}
-
+    .contenedorE {
+        display: flex;
+        justify-content: center;
+    }
 }
