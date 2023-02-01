@@ -202,9 +202,12 @@ textarea {
     background-color: #083e5f;
 }
 
-#mailto {
-    opacity: 0;
+
+p{
+    color:orange;
 }
+
+
 
 
 { /* Contacto */ }

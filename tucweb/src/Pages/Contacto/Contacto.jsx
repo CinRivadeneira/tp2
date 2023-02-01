@@ -1,12 +1,15 @@
 import React from 'react';
 import Navbar from '../../Components/Navbar';
-import ContactoBody from './ContactoBody';
+import Form from "../Contacto/Form"
+
 
 const Contacto = () => {
   return (
     <>
     <Navbar />
-    <ContactoBody />
+    <Form />
+
+
     </>
   )
 }
