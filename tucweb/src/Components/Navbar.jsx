@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Container, LogoContainer, Wrapper, Menu, MenuItem, MenuItemLink, MobileIcon } from './Navbar.elements';
 import Banner from "../Img/Banner.png"
 import { FaBars, FaHome, FaUsers, FaMailBulk, FaRegIdCard, FaTimes } from "react-icons/fa";
+import DarkMode from './DarkMode';
 
 const Navbar = () => {
     const [showMobileMenu, setShowMobileMenu] = useState(false)
@@ -18,7 +19,10 @@ const Navbar = () => {
                     {showMobileMenu ? <FaTimes /> : <FaBars /> }
 
                 </MobileIcon>
+
                 <Menu open={showMobileMenu} >
+                    
+
                     <MenuItem>
                         <MenuItemLink href='/inicio'>
                             <div>
@@ -51,8 +55,12 @@ const Navbar = () => {
                             Usuarios
                         </MenuItemLink>
                     </MenuItem>
+
                 </Menu>
+
             </Wrapper>
+            <DarkMode />
+
         </Container>
     )
 }

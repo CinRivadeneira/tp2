@@ -20,10 +20,10 @@ margin: auto;
 
 export const LogoContainer = styled.div`
 img{
-    max-height: 50px;
+    max-height: 60px;
     cursor: pointer;
     transition: all 0.7s;
-    margin-top: 11px;
+    margin-top: 6px;
     margin-left: 30px;
 }
 
@@ -104,6 +104,7 @@ export const MobileIcon = styled.div`
 display: flex;
 align-items: center;
 cursor: pointer;
+margin-right: 30px;
 
 svg{
     font-Size: 2em;
