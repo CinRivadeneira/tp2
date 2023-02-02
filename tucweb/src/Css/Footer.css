@@ -1,3 +1,37 @@
 
 
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
 
+.footer{
+    text-align: justify center;
+    color: rgb(21, 128, 221);
+    
+    
+}
+
+
+.copy{
+    text-align: center;
+   
+    color: rgb(241, 245, 241);  
+}
+
+.footer2{
+    display: block;
+    text-align: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+
+
+
+.redes{
+text-align:justify;
+    cursor: pointer;
+
+}

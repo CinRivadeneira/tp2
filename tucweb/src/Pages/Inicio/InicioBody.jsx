@@ -1,9 +1,9 @@
 
 import React from 'react';
 import "../../Css/Style.css"
-import Programación from "../../Img/Servicios/Programación.png"
-import Branding from "../../Img/Servicios/Branding.png"
-import Marketing from "../../Img/Servicios/Marketing.png"
+import Computer from "../../Img/Computer.gif"
+import Document from "../../Img/Document.gif"
+import Consult from "../../Img/Consult.gif"
 
 
 
@@ -27,7 +27,7 @@ const InicioBody = () => {
                 <div className="cardcontainer" >
                     <div className="card" > <br /> <br />
                         <div className="iconitos">
-                            <img src={Programación} width="120px" alt="programación" />
+                            <img src={Computer} width="180px" alt="computer" />
                             <br />
                         </div>
                         <div className="contenido">
@@ -50,7 +50,7 @@ const InicioBody = () => {
                 <div className="cardcontainer" >
                     <div className="card" > <br /> <br />
                         <div className="iconitos">
-                            <img src={Branding} width="120px" alt="branding" />
+                            <img src={Document} width="180px" alt="Document" />
                             <br />
                         </div>
                         <div className="contenido">
@@ -76,7 +76,7 @@ const InicioBody = () => {
                 <div className="cardcontainer" >
                     <div className="card" > <br /> <br />
                         <div className="iconitos">
-                            <img src={Marketing} width="120px" alt="branding" />
+                            <img src={Consult} width="180px" alt="consult" />
                             <br />
                         </div>
                         <div className="contenido">
