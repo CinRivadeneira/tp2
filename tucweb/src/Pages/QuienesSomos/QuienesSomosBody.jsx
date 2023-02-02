@@ -9,16 +9,8 @@ import "../../Css/Style.css"
 const QuienesSomosBody = () => {
     return (
         <>
-            <h1>¿QUIÉNES SOMOS?</h1>
-            <br />
-            <p className="intro">
-                Radicados en la provincia de Tucumán, somos un equipo de profesionales dedicados a brindar soluciones
-                digitales a empresas y personas que tienen como objetivo sumergirse en el ilimitado mundo del Internet.
-                <br /> <br />
-                Sin importar el tamaño de tu empresa, de lo que ofreces o de quien eres, manteniendo un objetivo claro, un
-                compromiso que avale aquello que deseas conseguir y el conocimiento de todo lo que puedes lograr,
-                beneficiarte y crecer con nuestros servicios es más que posible.
-            </p>
+            <br /> <br /> 
+
 
             <h2 className="nosotros">EQUIPO</h2>
             <div className="contenedorE">
@@ -30,11 +22,25 @@ const QuienesSomosBody = () => {
                 <div className="contenedorE">
                     <div className="gallery__iterm">
                         <img src={Cinthia} width="120px" alt="Cinthia Rivadeneira" className="gallery_img" />
-                        <h2 className="gallery__title">Cinthia Rivadeneria</h2>
+                        <h2 className="gallery__title">Cinthia Rivadeneira</h2>
                     </div>
                 </div>
             </div>
-            <br />
+            <br /> <br /> <br />
+
+
+
+
+            <p className="intro">
+                Radicados en la provincia de Tucumán, somos un equipo de profesionales dedicados a brindar soluciones
+                digitales a empresas y personas que tienen como objetivo sumergirse en el ilimitado mundo del Internet.
+                <br /> <br />
+                Sin importar el tamaño de tu empresa, de lo que ofreces o de quien eres, manteniendo un objetivo claro, un
+                compromiso que avale aquello que deseas conseguir y el conocimiento de todo lo que puedes lograr,
+                beneficiarte y crecer con nuestros servicios es más que posible.
+            </p>
+
+
 
             <h2 className="nosotros">SOMOS</h2>
             <br />
