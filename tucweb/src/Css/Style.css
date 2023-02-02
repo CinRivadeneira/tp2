@@ -9,12 +9,10 @@ body {
 }
 
 
-<<<<<<< HEAD
-/* Home */
-=======
-{ /* Home */ }
+    {
+    /* Home */
+}
 
->>>>>>> bea389f3327482c736825f59735338a4c8dbf07e
 h2 {
     color: rgb(4, 4, 97);
     text-align: center;
@@ -66,7 +64,7 @@ h3 {
     overflow: hidden;
     background-color: #eceff1;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
+    cursor: default;
     transition: all 400ms ease;
     display: inline-block;
 }
@@ -91,18 +89,15 @@ h3 {
     padding: 10px 110px;
 }
 
-/* Home */
+    {
+    /* Home */
+}
 
 
 
-<<<<<<< HEAD
-
-
-
-/* Quienes somos */
-=======
-{ /* Quienes somos */ }
->>>>>>> bea389f3327482c736825f59735338a4c8dbf07e
+    {
+    /* Quienes somos */
+}
 
 .intro {
     text-align: center;
@@ -172,15 +167,15 @@ h3 {
 }
 
 
-<<<<<<< HEAD
-/* Quienes somos */
-=======
-{ /* Quienes somos */ }
->>>>>>> bea389f3327482c736825f59735338a4c8dbf07e
+    {
+    /* Quienes somos */
+}
 
 
 
-{  /* Contacto */}
+    {
+    /* Contacto */
+}
 
 .form {
     width: 100%;
@@ -218,14 +213,126 @@ textarea {
 }
 
 
-p{
-    color:orange;
+p {
+    color: orange;
+}
+
+
+    {
+    /* Contacto */
 }
 
 
 
 
-{ /* Contacto */ }
+
+    {
+    /* DarkMode */
+}
+
+
+
+#darkMode {
+    display: flex;
+    cursor: pointer;
+    margin-right: 30px;
+    background: transparent url("../Img//DarkMode/Mode.png") no-repeat center;
+    background-size: 30px 30px;
+    width: 45px;
+    height: 45px;
+    filter: grayscale(100%);
+    border: none;
+    border-radius: 50%;
+    transition: background-color 0.3s ease-in-out, filter 0.3s ease-in-out;
+    margin: 10px;
+}
+
+
+#darkMode:hover,
+#darkMode:focus {
+    filter: none;
+    background-color: black;
+    cursor: pointer;
+}
+
+#darkMode.clicked {
+    filter: none !important;
+    background-color: black;
+}
+
+
+body.light {
+    background-color: rgb(250, 250, 250);
+    color: rgb(4, 4, 97);
+}
+
+
+
+body.dark {
+    background-color: rgb(10, 10, 42);
+}
+
+body.dark h2 {
+    color: aliceblue;
+}
+
+body.dark p {
+    color: aliceblue;
+}
+
+body.dark .logohorizontal img {
+    display: none;
+}
+
+body.dark .logohorizontal {
+    background: url("../Img/LogoD.png") no-repeat center;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+body.dark label {
+    color: aliceblue;
+}
+
+body.dark form p {
+    color: #f6c355;
+}
+
+
+body.dark #botonenv {
+    padding: 5px;
+    color: rgb(4, 4, 97);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f6c355;
+    border-radius: 7px;
+    width: 100px;
+    height: 40px;
+    transition: background-color 0.25s;
+}
+
+
+
+body.dark #botonenv:hover {
+    background-color: orange
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+    /* DarkMode */
+}
+
 
 
 
