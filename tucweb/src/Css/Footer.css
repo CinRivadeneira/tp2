@@ -21,17 +21,28 @@
 }
 
 .footer2{
-    display: block;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    justify-content: space-around;
+    margin: 15px;
     cursor: pointer;
 }
 
+ul {
+    list-style: none;
+}
 
+a{
+    text-decoration: none;
+ }
+
+ a:link{
+    text-decoration: none;
+ }
 
 
 .redes{
-text-align:justify;
+    text-align: center;
     cursor: pointer;
 
 }

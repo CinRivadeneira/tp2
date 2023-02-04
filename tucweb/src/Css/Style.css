@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0px;
     transition: background-color 0.4s;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
 }
 
 body {
@@ -58,7 +59,7 @@ h3 {
 
 .card {
     width: 350px;
-    height: 570px;
+    height: 655px;
     margin: 20px;
     border-radius: 8px;
     overflow: hidden;
@@ -81,12 +82,12 @@ h3 {
 
 
 .card .contenido h3 {
-    margin-bottom: 15px;
+    margin-bottom: 3px;
     color: rgb(4, 4, 97);
 }
 
 .iconitos {
-    padding: 10px 110px;
+    padding: 0px 110px;
 }
 
     {

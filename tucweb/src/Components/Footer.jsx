@@ -19,14 +19,13 @@ const Footer = () => {
                 </div>
 
 
-                <ul className="footer">
-                    <li className="footer2">Quienes somos</li>
-                    <li className="footer2">Contacto</li>
-                    <li className="footer2">Usuarios</li>
-                    
+                <ul className="footer2">
+                    <a href="/quienessomos" >Quienes somos  — </a>
+                    <a href="/contacto" > Contacto  —</a>
+                    <a href="/usuarios" > Usuarios  </a>                   
                 </ul>
                 <div class="copy">
-                    tucWEB <br />     2023© Todos los derechos reservados
+                    tucWEB 2023,  © Todos los derechos reservados
                 </div>
             </footer>
         </section>
